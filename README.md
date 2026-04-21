@@ -50,3 +50,16 @@ Decision Tree
 Accuracy Score
 Confusion Matrix
 Precision & Recall
+
+📊 Results
+
+Achieved high accuracy in detecting fraud transactions
+Model performance depends on parameter tuning
+KNN works well for smaller datasets
+
+🚀 Future Enhancements
+
+Use advanced models like Random Forest or XGBoost
+Handle imbalanced dataset using SMOTE
+Deploy the model using Flask or Streamlit
+Real-time fraud detection system
