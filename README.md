@@ -27,6 +27,7 @@ Scikit-learn
 Matplotlib / Seaborn
 
 🔍 Project Workflow
+
 1️⃣ Data Collection
 Load dataset from CSV or online source
 
@@ -43,8 +44,8 @@ Visualize fraud vs non-fraud distribution
 Apply Machine Learning algorithms:
 Logistic Regression
 K-Nearest Neighbors (KNN)
-
 Decision Tree
+
 5️⃣ Model Evaluation
 Accuracy Score
 Confusion Matrix
