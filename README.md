@@ -1,7 +1,8 @@
 Credit Card Fraud Detection
 📌 Project Overview
 
-This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques. The goal is to build a predictive model that can accurately identify fraud while minimizing false positives.
+This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques. 
+The goal is to build a predictive model that can accurately identify fraud while minimizing false positives.
 
 Fraud detection is important for financial security and helps banks prevent unauthorized transactions.
 
@@ -28,17 +29,21 @@ Matplotlib / Seaborn
 🔍 Project Workflow
 1️⃣ Data Collection
 Load dataset from CSV or online source
+
 2️⃣ Data Preprocessing
 Handle missing values
 Normalize/scale features
 Split dataset into training and testing
+
 3️⃣ Exploratory Data Analysis (EDA)
 Analyze transaction patterns
 Visualize fraud vs non-fraud distribution
+
 4️⃣ Model Building
 Apply Machine Learning algorithms:
 Logistic Regression
 K-Nearest Neighbors (KNN)
+
 Decision Tree
 5️⃣ Model Evaluation
 Accuracy Score
