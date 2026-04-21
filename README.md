@@ -63,3 +63,7 @@ Use advanced models like Random Forest or XGBoost
 Handle imbalanced dataset using SMOTE
 Deploy the model using Flask or Streamlit
 Real-time fraud detection system
+
+📌 Conclusion
+
+This project demonstrates how Machine Learning can be used to detect fraudulent transactions effectively. It highlights the importance of data preprocessing and model selection in achieving better accuracy.
