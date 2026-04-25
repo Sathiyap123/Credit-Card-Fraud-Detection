@@ -31,7 +31,7 @@ Fraud detection is a challenging task due to highly imbalanced data, where fraud
 
 The dataset contains anonymized credit card transaction data.
 
-Source: Public dataset (Kaggle)
+Source: Public dataset
 
 Features: Transaction amount, time, and anonymized variables
 Target Variable:
@@ -57,6 +57,7 @@ cd Credit-Card-Fraud-Detection
 pip install -r requirements.txt
 
 🚀 Usage
+
 Open the notebook:
 jupyter notebook
 Run:
@@ -95,6 +96,7 @@ It highlights the importance of evaluation metrics like precision and recall in 
 🚀 Future Work
 
 Implement advanced models like Random Forest, XGBoost, or Deep Learning for improved performance
+
 Apply better techniques to handle class imbalance (SMOTE, ensemble methods)
 
 Deploy the model as a real-time fraud detection system using web applications
