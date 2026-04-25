@@ -1,69 +1,98 @@
-Credit Card Fraud Detection
-📌 Project Overview
+💳 Credit Card Fraud Detection
 
-This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques. 
-The goal is to build a predictive model that can accurately identify fraud while minimizing false positives.
+A machine learning model to identify fraudulent credit card transactions using classification techniques.
 
-Fraud detection is important for financial security and helps banks prevent unauthorized transactions.
+📋 Table of Contents
 
-🎯 Objectives
-Identify fraudulent transactions from a dataset
-Build a classification model using Machine Learning
-Evaluate model performance using accuracy and other metrics
-Improve detection with better feature handling
+Project Overview
+Dataset
+Installation
+Usage
+Results & Evaluation
+Project Structure
+Authors
+License
 
-📂 Dataset
-The dataset contains credit card transactions made by users
-Includes features like transaction amount, time, and anonymized variables
-Target column:
-0 → Normal transaction
-1 → Fraudulent transaction
+🌟 Project Overview
 
-⚙️ Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib / Seaborn
+This project focuses on detecting fraudulent credit card transactions using machine learning models.
 
-🔍 Project Workflow
+Goal: Accurately classify transactions as fraud or legitimate to reduce financial risk
+Type: Binary Classification
+Approach: Data preprocessing → Feature scaling → Model training → Evaluation
+Tech Stack: Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
-1️⃣ Data Collection
-Load dataset from CSV or online source
+Fraud detection is a challenging task due to highly imbalanced data, where fraudulent transactions are very rare compared to normal ones .
 
-2️⃣ Data Preprocessing
-Handle missing values
-Normalize/scale features
-Split dataset into training and testing
+📊 Dataset
 
-3️⃣ Exploratory Data Analysis (EDA)
-Analyze transaction patterns
-Visualize fraud vs non-fraud distribution
+The dataset contains anonymized credit card transaction data.
 
-4️⃣ Model Building
-Apply Machine Learning algorithms:
-Logistic Regression
-K-Nearest Neighbors (KNN)
-Decision Tree
+Source: Public dataset (Kaggle)
+Features: Transaction amount, time, and anonymized variables
+Target Variable:
+0 → Legitimate
+1 → Fraud
 
-5️⃣ Model Evaluation
-Accuracy Score
-Confusion Matrix
-Precision & Recall
+Preprocessing Steps:
 
-📊 Results
+Removed unnecessary columns
+Feature scaling applied
+Handled class imbalance
+Split into training and testing data
 
-Achieved high accuracy in detecting fraud transactions
-Model performance depends on parameter tuning
-KNN works well for smaller datasets
+⚙️ Installation
 
-🚀 Future Enhancements
+# Clone the repository
+git clone https://github.com/Sathiyap123/Credit-Card-Fraud-Detection.git
 
-Use advanced models like Random Forest or XGBoost
-Handle imbalanced dataset using SMOTE
-Deploy the model using Flask or Streamlit
-Real-time fraud detection system
+# Navigate to project folder
+cd Credit-Card-Fraud-Detection
 
-📌 Conclusion
+# Install dependencies
+pip install -r requirements.txt
 
-This project demonstrates how Machine Learning can be used to detect fraudulent transactions effectively. It highlights the importance of data preprocessing and model selection in achieving better accuracy.
+🚀 Usage
+Open the notebook:
+jupyter notebook
+Run:
+MACHINE_LEARNING_.ipynb
+
+Steps inside notebook:
+
+Data loading
+Exploratory Data Analysis (EDA)
+Model training
+Prediction & evaluation
+
+📈 Results & Evaluation
+
+Metric	Value
+Accuracy	~99%
+Precision	High
+Recall	High
+F1-Score	Balanced
+Model performs well despite imbalanced dataset
+Evaluation metrics like Precision & Recall are important for fraud detection
+
+📁 Project Structure
+
+├── MACHINE_LEARNING_.ipynb   
+├── data/                    
+├── models/                  
+└── requirements.txt
+
+🔚 Conclusion
+
+This project successfully demonstrates the use of machine learning techniques to detect fraudulent credit card transactions.
+The model achieves high accuracy and effectively handles imbalanced data, making it reliable for identifying potential fraud.
+It highlights the importance of evaluation metrics like precision and recall in real-world financial applications.
+
+🚀 Future Work
+
+Implement advanced models like Random Forest, XGBoost, or Deep Learning for improved performance
+Apply better techniques to handle class imbalance (SMOTE, ensemble methods)
+
+Deploy the model as a real-time fraud detection system using web applications
+Integrate real-world streaming data for continuous monitoring
+Improve model interpretability for better decision-making
