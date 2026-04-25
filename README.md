@@ -18,8 +18,11 @@ License
 This project focuses on detecting fraudulent credit card transactions using machine learning models.
 
 Goal: Accurately classify transactions as fraud or legitimate to reduce financial risk
+
 Type: Binary Classification
+
 Approach: Data preprocessing → Feature scaling → Model training → Evaluation
+
 Tech Stack: Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
 Fraud detection is a challenging task due to highly imbalanced data, where fraudulent transactions are very rare compared to normal ones .
@@ -29,6 +32,7 @@ Fraud detection is a challenging task due to highly imbalanced data, where fraud
 The dataset contains anonymized credit card transaction data.
 
 Source: Public dataset (Kaggle)
+
 Features: Transaction amount, time, and anonymized variables
 Target Variable:
 0 → Legitimate
